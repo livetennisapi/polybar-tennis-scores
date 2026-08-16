@@ -1,0 +1,47 @@
+{
+  "data": [
+    {
+      "id": 101,
+      "tournament": "US Open",
+      "tour": "atp",
+      "status": "live",
+      "is_doubles": false,
+      "scheduled_time": "2026-08-30T15:00:00Z",
+      "players": {
+        "p1": { "id": 1, "name": "Carlos Alcaraz", "country": "ESP", "ranking": 2 },
+        "p2": { "id": 2, "name": "Jannik Sinner", "country": "ITA", "ranking": 1 }
+      },
+      "score": {
+        "sets": [1, 0],
+        "games": [[6, 3], [4, 2]],
+        "points": ["30", "15"],
+        "server": 1,
+        "is_tiebreak": false,
+        "timestamp": "2026-08-30T16:12:41Z"
+      },
+      "winner": null
+    },
+    {
+      "id": 102,
+      "tournament": "US Open",
+      "tour": "wta",
+      "status": "live",
+      "is_doubles": false,
+      "scheduled_time": "2026-08-30T15:30:00Z",
+      "players": {
+        "p1": { "id": 3, "name": "Coco Gauff", "country": "USA", "ranking": 3 },
+        "p2": { "id": 4, "name": "Iga Swiatek", "country": "POL", "ranking": 2 }
+      },
+      "score": {
+        "sets": [0, 1],
+        "games": [[2, 1], [6, 1]],
+        "points": ["0", "15"],
+        "server": 2,
+        "is_tiebreak": false,
+        "timestamp": "2026-08-30T16:12:43Z"
+      },
+      "winner": null
+    }
+  ],
+  "meta": { "count": 2, "total": 2, "has_more": false }
+}

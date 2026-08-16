@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "id": 103,
+      "tournament": "US Open",
+      "tour": "atp",
+      "status": "live",
+      "is_doubles": false,
+      "scheduled_time": "2026-08-30T17:00:00Z",
+      "players": {
+        "p1": { "id": 5, "name": "Novak Djokovic", "country": "SRB", "ranking": 4 },
+        "p2": { "id": 6, "name": "Alexander Zverev", "country": "GER", "ranking": 5 }
+      },
+      "score": null,
+      "winner": null
+    }
+  ],
+  "meta": { "count": 1, "total": 1, "has_more": false }
+}

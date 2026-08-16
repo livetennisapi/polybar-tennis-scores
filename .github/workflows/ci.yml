@@ -1,0 +1,22 @@
+name: CI
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Install shellcheck and jq
+        run: sudo apt-get update && sudo apt-get install -y shellcheck jq
+
+      - name: ShellCheck
+        run: shellcheck tennis-scores.sh tests/run-tests.sh
+
+      - name: Tests (mocked curl, no network, no credentials)
+        run: sh tests/run-tests.sh

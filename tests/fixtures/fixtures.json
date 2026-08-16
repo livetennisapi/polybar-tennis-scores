@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "id": 9001,
+      "event_date": "2026-08-30",
+      "start_time": "2026-08-30T18:30:00Z",
+      "player1_id": 5,
+      "player2_id": 1,
+      "player1_name": "Novak Djokovic",
+      "player2_name": "Carlos Alcaraz",
+      "tour": "atp",
+      "tournament": "US Open",
+      "round": "Final",
+      "round_code": "F",
+      "surface": "hard",
+      "status": "upcoming"
+    }
+  ],
+  "meta": { "count": 1, "total": 1, "has_more": false }
+}
